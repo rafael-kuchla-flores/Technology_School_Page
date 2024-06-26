@@ -21,7 +21,7 @@ Abrindo com Live Server
 ## Acesse pelo github pages
 
 ```bash
-  
+  https://rafael-kuchla-flores.github.io/Technology_School_Page/
 ```
 
 ### Considerações
