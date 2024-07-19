@@ -560,4 +560,20 @@ footer .copyright .pro-links i:hover{
 }
 
 @media (max-width: 475px) {
+  #registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #registration .reminder .time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
 }
