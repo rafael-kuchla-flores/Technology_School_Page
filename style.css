@@ -601,6 +601,11 @@ footer .copyright .pro-links i:hover{
   color: #757373;
   font-weight: 500;
   line-height: 45px;
+  transition: 0.5s ease;
+}
+
+#blog-container .cate a:hover{
+  color: #FDC93B;
 }
 
 .blogs .btn{
