@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="style.css" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="email.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -247,16 +249,15 @@
           </div>
         </div>
        </div>
+       
 
-       <div class="form">
+       <form action="https://formsubmit.co/ajax/rafael.kuchla.flores@gmail.com" method="POST" data-form class="form">
         <h3>Crie Sua Conta Grátis Hojes</h3>
-        <input type="text" placeholder="Name" name="" id="">
-        <input type="text" placeholder="E-mail Address" name="" id="">
-        <input type="text" placeholder="Phone Number" name="" id="">
-        <div class="btn">
-          <a class="yellow" href="#">Submit Form</a>
-        </div>
-       </div>
+        <input type="text" placeholder="Name" name="nome" required>
+        <input type="text" placeholder="E-mail Address" name="email" required>
+        <input type="text" placeholder="Phone Number" name="phone" required>
+        <button type="submit" data-button class="btn">Enviar Cadastro</button>
+      </form>
     </section>
 
 
