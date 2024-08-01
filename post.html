@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeVerse Institute</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <nav>
+      <img src="images/logo.svg" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
+      </div>
+    </nav>
+
+
+    <section id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+          <img src="images/b1.jpg" alt="">
+          <h3>Curso de Desenvolvimento Web: Transforme sua Carreira</h3>
+          <p>O curso de Desenvolvimento Web é uma oportunidade incrível para quem deseja ingressar no mundo da programação e criar aplicações web modernas e funcionais. Este curso abrange desde os fundamentos até técnicas avançadas, permitindo que você desenvolva habilidades completas para atuar tanto no front-end quanto no back-end.</p>
+          <br><br>
+          <h4>O que Você Vai Aprender:</h4>
+          <ul>
+            <li><p><strong>HTML5 e CSS3</strong>: Criação de estruturas e estilos para páginas web, incluindo layouts responsivos que se adaptam a diferentes dispositivos.</p></li>
+            <li><p><strong>JavaScript e jQuery</strong>: Programação interativa para tornar suas páginas dinâmicas e responsivas.</p></li>
+            <li><p><strong>Frameworks e Bibliotecas</strong>: Utilização de ferramentas como Bootstrap para agilizar o desenvolvimento e garantir um design profissional.</p></li>
+            <li><p><strong>Back-End com PHP e MySQL</strong>:  Desenvolvimento de servidores e bancos de dados para armazenar e gerenciar informações.</p></li>
+            <li><p><strong>APIs e AJAX</strong>: Integração de serviços externos e criação de aplicações web mais rápidas e eficientes.</p></li>
+            <li><p><strong>Projetos Práticos</strong>: Aplicação dos conhecimentos adquiridos em projetos reais, como a criação de um clone do Twitter</p></li>
+          </ul>
+          <br><br>
+
+          <h4>Como Você Vai Se Desenvolver:</h4>
+          <ul>
+            <li><p><strong>Aprendizado Prático</strong>: O curso é focado em projetos reais, permitindo que você aplique o que aprendeu em situações do dia a dia.</p></li>
+            <li><p><strong>Flexibilidade</strong>: Estude no seu próprio ritmo, com acesso vitalício ao conteúdo do curso.</p></li>
+            <li><p><strong>Suporte e Comunidade</strong>: Participe de fóruns e grupos de discussão para tirar dúvidas e trocar experiências com outros alunos.</p></li>
+            <li><p><strong>Certificação</strong>: Ao concluir o curso, você receberá um certificado que pode ser adicionado ao seu currículo e perfil no LinkedIn.</p></li>
+          </ul>
+          <br><br>
+          <p>Este curso é ideal para iniciantes que desejam começar do zero, bem como para profissionais que buscam atualizar suas habilidades e se destacar no mercado de trabalho. Com dedicação e prática, você estará pronto para criar aplicações web completas e conquistar novas oportunidades na área de tecnologia.</p>
+          <a class="blue" href="blog.html">Read More</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+      </div>
+
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Coloque seu email para receber nossas ofertas e promoções</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Seu email">
+          <a href="#" class="yellow">Subscribe</a>
+        </div>
+      </div>
+
+
+      <div class="copyright">
+        <p>Copyright &copy; Todos os direitos reservados | Template feito por Rafael Kuchla</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+      });
+      $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+      });
+    </script>
+  </body>
+</html>

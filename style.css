@@ -47,6 +47,7 @@ nav{
 
 nav img{
   width: 150px;
+  height: 100px;
   cursor: pointer;
 }
 
@@ -626,6 +627,18 @@ footer .copyright .pro-links i:hover{
   background-color: #3d5ee0;
 }
 
+/*Post*/
+
+#blog-container .blogpost{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#blog-container .blogpost p{
+  text-align: justify;
+  padding-bottom: 60px !important;
+}
+
 /* Course_inner */
 
 /* contact */
@@ -737,6 +750,19 @@ footer .copyright .pro-links i:hover{
   #blog-container{
     padding: 8vw 4vw;
   }
+
+  /*Post*/
+
+  #blog-container .blogpost{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #blog-container .blogpost img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 475px) {
@@ -803,6 +829,19 @@ footer .copyright .pro-links i:hover{
 
   #blog-container .cate{
     width: 100%;
+  }
+
+  /*Post*/
+
+  #blog-container .blogpost{
+    width: 100%;
+    margin-top:70px;
+  }
+
+  #blog-container .blogpost img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
   }
 }
 
