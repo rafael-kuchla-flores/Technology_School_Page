@@ -15,9 +15,9 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <script src="email.js"></script>
+    <script src="script.js"></script>
   </head>
-  <body>
+  <body id="content">
     <!-- Navigation -->
 
     <nav>
@@ -25,11 +25,11 @@
       <div class="navigation">
         <ul>
           <i id="menu-close" class="fas fa-times"></i>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a class="active" onclick="requisitar('index.html')" >Home</a></li>
+          <li><a onclick="requisitar('about.html')" >About</a></li>
+          <li><a onclick="requisitar('blog.html')" >Blog</a></li>
+          <li><a onclick="requisitar('courses.html')" >Courses</a></li>
+          <li><a onclick="requisitar('contact.html')" >Contact</a></li>
         </ul>
         <img id="menu-btn" src="images/menu.png" alt="">
       </div>
