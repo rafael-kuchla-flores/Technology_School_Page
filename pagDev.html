@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeVerse Institute</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
+    <link rel="stylesheet" href="pagDev.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body id="content">
+    <!-- Navigation -->
+
+    <nav>
+      <img src="images/CodeVerse.svg" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a onclick="requisitar('index.html')" >Home</a></li>
+          <li><a onclick="requisitar('about.html')" >About</a></li>
+          <li><a onclick="requisitar('blog.html')" >Blog</a></li>
+          <li><a class="active" onclick="requisitar('pagDev.html')" >pagDev</a></li>
+          <li><a onclick="requisitar('contact.html')" >Contact</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
+      </div>
+    </nav>
+
+    <section></section>
+
+
+    <div class="container">
+      <h1>CRUD</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+  
+    </div>
+
+    
+    <script src="crud.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+      });
+      $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+      });
+    </script>
+  </body>
+</html>
